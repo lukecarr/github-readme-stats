@@ -11,9 +11,10 @@ const renderTopLanguages = require("../src/cards/top-languages-card");
 const blacklist = require("../src/common/blacklist");
 const { isLocaleAvailable } = require("../src/translations");
 
+const username = "lukecarr";
+
 module.exports = async (req, res) => {
   const {
-    username,
     hide,
     hide_title,
     hide_border,
